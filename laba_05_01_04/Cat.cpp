@@ -12,7 +12,7 @@ Cat::~Cat()
 
 std::string Cat::get_data()
 {
-	return "Bird\n" +
+	return "Cat\n" +
 		breed + "\n" +
 		color + "\n" +
 		FIO + "\n" +
@@ -21,7 +21,7 @@ std::string Cat::get_data()
 
 std::string Cat::get_to_print()
 {
-	return "Рыба: \n\tпорода: " + breed +
+	return "Кошка: \n\tпорода: " + breed +
 		"\n\tокрас: " + color +
 		"\n\tФИО владельца: " + FIO +
 		"\n\tкличка: " + name + "\n";

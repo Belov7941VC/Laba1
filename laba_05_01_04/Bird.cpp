@@ -21,7 +21,7 @@ std::string Bird::get_data()
 
 std::string Bird::get_to_print()
 {
-	return "Рыба: \n\tпорода: " + breed +
+	return "Птица: \n\tпорода: " + breed +
 		"\n\tокрас: " + color +
 		"\n\tтип: " + type_of_food +
 		"\n\tместо обитания: " + habitat + "\n";
